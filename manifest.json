@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Delta Helper",
+  "description": "AI-powered tools on Delta.com",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://*.delta.com/*",
+    "https://generativelanguage.googleapis.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.delta.com/*"
+      ],
+      "js": [
+        "config.js",
+        "content.js"
+      ]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Delta Helper"
+  }
+}
