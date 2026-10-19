@@ -1,10 +1,10 @@
-# Delta Helper
+# Fare Check (for delta.com)
 
-A Chrome extension that tells you whether a fare on delta.com is actually a good price.
+A Chrome extension that gives a quick read on whether a fare on delta.com is a good price for that route.
 
-Delta's site lists prices but never says if one is cheap for that route. I wanted that answer right next to the fare, so I built it. Hover over a price and a badge shows up: **CHEAP**, **AVERAGE**, or **EXPENSIVE**, with a one-line reason from Google's Gemini.
+I had an idea for a feature that would make booking on delta.com even easier: a quick read on whether a fare is a good price for that route, right where you're already looking. Instead of just imagining it, I built it. Hover over a price and a badge shows up: **CHEAP**, **AVERAGE**, or **EXPENSIVE**, with a one-line reason from Google's Gemini.
 
-Try a simulated version in your browser on my portfolio: https://allie-rose.github.io/project.html?p=delta-helper
+Try a simulated version, and read how it could help Delta's business and pricing, on my portfolio: https://allie-rose.github.io/project.html?p=fare-check
 
 *Personal project. Not affiliated with or endorsed by Delta Air Lines.*
 

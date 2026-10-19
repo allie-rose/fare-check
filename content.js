@@ -1,4 +1,4 @@
-// Delta Helper: rates fares on delta.com as cheap, average, or expensive using Gemini.
+// Fare Check: rates fares on delta.com as cheap, average, or expensive using Gemini.
 // The API key comes from config.js (see config.example.js).
 
 const analyzePrice = async (priceEl) => {
@@ -48,7 +48,7 @@ const analyzePrice = async (priceEl) => {
     badge.innerText = '?';
     badge.title = 'Could not analyze -- try hovering again';
     badge.style.background = '#999';
-    console.log('Delta Helper error:', err);
+    console.log('Fare Check error:', err);
   }
 };
 
